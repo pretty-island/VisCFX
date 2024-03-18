@@ -34,7 +34,7 @@ export default {
     
     //给每一个生成一个id
     generatedId(i){
-      return 'text'+i
+      return 'cfx/eventMap#text'+i
     },
     //自动播放
     autoScroll(index){
