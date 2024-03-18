@@ -28,7 +28,7 @@ export default {
       console.log(index);
       console.log("store",this.$store.state.nowIndex);
       this.$store.state.nowIndex = index
-      window.location.hash = 'text'+index;
+      window.location.hash = 'cfx/eventMap#text'+index;
       clearInterval(this.interval)
     },
     
@@ -38,7 +38,7 @@ export default {
     },
     //自动播放
     autoScroll(index){
-      window.location.hash = 'text'+index;
+      window.location.hash = 'cfx/eventMap#text'+index;
     },
   },
   watch:{
